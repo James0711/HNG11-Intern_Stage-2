@@ -54,16 +54,6 @@ def hello_visitor():
     )
 
 
-# @app.route("/api/test-production/", methods=['GET'])
-# def test_production():
-#     """
-#     Just to quick way to test out the production version when in localhost
-#     """
-#     prod_url = "https://chimeziri-obioha-hng11-stage1-task.cleverapps.io/api/hello?visitor_name='Chimeziri Obioha'"
-
-#     return jsonify(requests.get(prod_url, timeout=1200).json())
-
-
 if __name__ == "__main__":
     if os.environ.get('APP_IN_PRODUCTION'):
         app.run(debug=False)
