@@ -9,12 +9,6 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ['APP_SECRET_KEY']
 
 
-# ------------------------NOTE------------------------ #
-# I'VE ADDED A FEW MORE LINES CODE TO THE ORIGINAL TASK
-# AFTER BEING PROMOTED FROM STAGE-1 TO STAGE-2. THE NEW
-# CODE IS TO PLAY AROUND AND LEARN MORE FROM THE TASK!!
-
-
 def get_json_result(req, visitor_ip):
     """
     Function that generates and returns the required json response
