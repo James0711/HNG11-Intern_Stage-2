@@ -6,7 +6,7 @@ This is a basic Python API that retrieves weather information based on the reque
 - Flask
 
 ### Python Version:
-- 3.10.9
+- 3.10.11
 
 ### Public APIs Used:
 - [OpenWeatherMap](https://openweathermap.org): Provides weather status based on location.
