@@ -100,7 +100,6 @@ def test_production():
     print("App seems not to be active on both CleverCloud and Vercel")
     return redirect(url_for('home'))
 
-
 if __name__ == "__main__":
     if os.environ.get('APP_IN_PRODUCTION'):
         app.run(debug=False)
